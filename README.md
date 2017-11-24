@@ -13,10 +13,10 @@ It uses the [AVR-LLVM backend](http://llvm.org/viewvc/llvm-project/llvm/trunk/li
   * This is done because [several bugs](https://github.com/avr-rust/rust/milestone/1) cause certain
     functions to trigger bugs in the AVR LLVM backend
   * Missing functionality includes
-    * Crucial `core::fmt` functions are stubbed out, causing empty results (avr-rust/libcore#3)
-    * The entire `core::sync` module is missing (avr-rust/libcore#1)
-    * All mentions of 128-bit integers are removed from `libcore` (avr-rust/libcore#5)
-    * Panics currently trigger infinite loops with no message (avr-rust/libcore#4)
+    * Crucial `core::fmt` functions are stubbed out, causing empty results ([avr-rust/libcore#3](https://github.com/avr-rust/libcore/issues/3))
+    * The entire `core::sync` module is missing ([avr-rust/libcore#1](https://github.com/avr-rust/libcore/issues/1))
+    * All mentions of 128-bit integers are removed from `libcore` ([avr-rust/libcore#5](https://github.com/avr-rust/libcore/issues/5))
+    * Panics currently trigger infinite loops with no message ([avr-rust/libcore#4](https://github.com/avr-rust/libcore/issues/4))
 
 ## Building and installation
 
