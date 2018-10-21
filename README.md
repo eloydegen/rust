@@ -26,6 +26,8 @@ such as `libcore` or `liblibc`. To do this, the `--target=avr-unknown-unknown`
 flag must be passed to `configure`, which is not fully supported yet due to bugs.
 
 ``` bash
+# Install dependencies
+sudo apt install build-essential cmake curl libffi-dev
 # Grab the avr-rust sources
 git clone https://github.com/avr-rust/rust.git
 
